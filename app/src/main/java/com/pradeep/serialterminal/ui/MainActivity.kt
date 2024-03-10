@@ -11,22 +11,17 @@ import androidx.compose.material3.Surface
 import androidx.compose.ui.Modifier
 import com.example.terminal.TerminalScreen
 import com.pradeep.serialterminal.ui.theme.SerialTerminalTheme
+import dagger.hilt.android.AndroidEntryPoint
 
+@AndroidEntryPoint
 class MainActivity : ComponentActivity() {
     @RequiresApi(Build.VERSION_CODES.S)
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
 
-
         setContent {
             SerialTerminalTheme {
-                // A surface container using the 'background' color from the theme
-                Surface(
-                    modifier = Modifier.fillMaxSize(),
-                    color = MaterialTheme.colorScheme.background
-                ) {
-                    TerminalScreen()
-                }
+                //val viewModel = hilt
             }
         }
     }
