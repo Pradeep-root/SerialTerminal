@@ -65,7 +65,6 @@ class BluetoothTerminalController constructor(
         bluetoothAdapter?.cancelDiscovery()
     }
 
-
     override fun release() {
         context.unregisterReceiver(foundDeviceReceiver)
     }

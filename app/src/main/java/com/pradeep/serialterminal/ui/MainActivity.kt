@@ -1,4 +1,4 @@
-package com.pradeep.serialterminal
+package com.pradeep.serialterminal.ui
 
 import android.os.Build
 import android.os.Bundle
