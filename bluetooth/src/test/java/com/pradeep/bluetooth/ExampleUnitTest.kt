@@ -1,4 +1,4 @@
-package com.pradeep.data
+package com.pradeep.bluetooth
 
 import org.junit.Test
 
