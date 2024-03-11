@@ -3,7 +3,6 @@ package com.pradeep.serialterminal.ui
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
 import com.pradeep.bluetooth.data.BluetoothTerminalController
-import com.pradeep.serialterminal.ui.BluetoothUiState
 import dagger.hilt.android.lifecycle.HiltViewModel
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.SharingStarted

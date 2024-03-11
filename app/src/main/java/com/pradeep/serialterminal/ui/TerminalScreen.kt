@@ -1,4 +1,4 @@
-package com.example.terminal
+package com.pradeep.serialterminal.ui
 
 import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.Box
